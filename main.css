@@ -1,6 +1,8 @@
 * {
     box-sizing: border-box;
     background-color: tan;
+    text-align: center;
+    font-style: ;
   }
   
   body {
@@ -15,16 +17,22 @@
     flex-direction: column;
   }
 
-div {
+#top {
     justify-self: top;
     height: 250px;
+    align-items: center;
+    justify-content: center;
     
 }
+
+/* #social {
+
+} */
 
   nav {
     
     height: 100px;
-    width: 100vh;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     border: 2px solid black;
@@ -32,6 +40,11 @@ div {
     
   }
 
-  footer {
-    
-  }
+/* button {
+
+} */
+
+
+/* footer {
+
+  } */

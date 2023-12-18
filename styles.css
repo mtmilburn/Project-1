@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    background-color: tan;
+  }
+  
+  body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Helvetica;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+  }
+
+div {
+    justify-self: top;
+    height: 250px;
+    
+}
+
+  nav {
+    
+    height: 100px;
+    width: 100vh;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    display: flex;
+    
+  }
+
+  footer {
+    
+  }

@@ -1,18 +1,6 @@
 *{
     box-sizing: border-box;
-}
-
-
-.title {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    border: 2px solid black;
-    /* position: relative; */
-    flex-direction: column;
-    background-color: #2F1000;
+   
 }
 
 nav {
@@ -24,16 +12,28 @@ nav {
     border: 2px solid black;
     display: flex;
     
-  }
+}
+
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 10px solid black;
+    
+}
 
 .info {
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 300px;
-    height: 300px;
-    border: 2px solid black;
-    /* position: relative; */
-    flex-direction: column;
-    background-color: #2F1000;
+    height: 400px;
+    border: 10px solid black;
+    margin-top: 20px;
+    
 }

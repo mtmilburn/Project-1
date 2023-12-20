@@ -41,8 +41,6 @@
   }
   
   .carousel-images {
-    
-    width: auto;
     background: #107e1d;
     padding: 10px;
     border-radius: 10px;
@@ -55,7 +53,7 @@
     width: 100%;
     box-sizing: inherit;
     border: #000000;
-    object-fit: cover;
+    object-fit: contain;
   }
   
   

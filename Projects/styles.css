@@ -29,8 +29,7 @@
     letter-spacing: 2px;
   }
   
-  
-  /* ======= CAROUSEL SECTION ======== */
+
   .carousel-container {
     width: 90%;
     min-height: 30vh;
@@ -54,6 +53,7 @@
     box-sizing: inherit;
     border: #000000;
     object-fit: contain;
+    
   }
   
   
@@ -66,6 +66,7 @@
     border-radius: 50%;
     text-align: center;
     box-shadow: 1px 1px #054941;
+    margin: 20px;
   }
   
   .carousel-button:hover {

@@ -27,22 +27,36 @@
     height: 250px;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom: 25px;
 }
 
-#bottom {
-  max-height: 100%;
+.sticky {
+  display: flex;
+  margin: 50px;
+  padding: 10px;
+  flex-direction: column;
+  position: sticky;
+  align-self: flex-start;
+  cursor: pointer;
 }
+
+
+#icon {
+width: 60px;
+height: 60px;
+}
+
 
   nav {
-    
+    padding: 15px;
     height: 100px;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    border: 2px solid black;
+    border: 2px inset black;
     display: flex;
-    
+    font-weight: bold;
+    cursor: pointer;
   }
 
 /* button {
@@ -50,6 +64,6 @@
 } */
 
 
-/* footer {
-
-  } */
+footer {
+  border: 10px groove wheat;
+  }

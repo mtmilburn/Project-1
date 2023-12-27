@@ -18,7 +18,7 @@ let board, turn, winner, tie
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~Cached Element References~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const squareElements = document.querySelectorAll('.sqr');
 const messageEl = document.querySelector('#message');
-// const sqrClick = document.querySelector('.sqr', );
+const sqrClick = document.querySelector('.sqr', );
 const reset = document.getElementById('reset');
 
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~Event Listeners~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,10 +49,10 @@ function updateBoard(){
 board.forEach(function(sqrVal, idx){
     if (board[idx] === 1){
         squareElements[idx].textContent = 'X'
-        squareElements[idx].style.backgroundColor = 'lightgrey'
+        squareElements[idx].style.color = 'lightgrey'
     } else if (board[idx] === -1){
         squareElements[idx].textContent = 'O'
-        squareElements[idx].style.backgroundColor = 'lightcoral'
+        squareElements[idx].style.color = 'lightcoral'
     } else {
         squareElements[idx].textContent = ''
     }
@@ -62,7 +62,7 @@ board.forEach(function(sqrVal, idx){
 //after each turn what happens
 function updateMessage() {
     if (winner === false && tie === false){
-        messageEl.textContent = "It's the next players turn"
+        messageEl.textContent = `It's ${turn === 1 ? 'X' : 'O'}'s turn!`
     } else if (winner === false && tie === true){
         messageEl.textContent = "It's a tie 😑!"
     } else {

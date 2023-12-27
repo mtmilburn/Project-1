@@ -1,4 +1,4 @@
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~Constants~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~Constants~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const winningCombos = [
     [0, 1, 2],
     [3, 4, 5],
@@ -11,23 +11,23 @@ const winningCombos = [
 ]
 
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~`State` Variables~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~`State` Variables~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 let board, turn, winner, tie
 
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~Cached Element References~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~Cached Element References~~~~~~~~~~~~~~~~~~~~~~~~
 const squareElements = document.querySelectorAll('.sqr');
 const messageEl = document.querySelector('#message');
 const sqrClick = document.querySelector('.sqr', );
 const reset = document.getElementById('reset');
 
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~Event Listeners~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~~~~~~Event Listeners~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 squareElements.forEach(function(sqr){
     sqr.addEventListener('click', handleClick)
 })
 
 reset.addEventListener('click', init)
-//~~~~~~~~~~~~~~~~~~~~~~~~~~~~Functions~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//~~~~~~~~~~~~~~~~~~~~~~~Functions~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 init();
 
 //player starts game, board layout
@@ -85,7 +85,7 @@ function handleClick(evt) {
 function placePiece(idx) {
     board[idx] = turn
 }
-
+//checks for tie
 function checkForTie() {
     if(board.includes(null)) {
         tie = false
@@ -93,7 +93,7 @@ function checkForTie() {
         tie = true
     }
 }
-
+//checks if all/any winning combos on the board 
 function checkForWinner() {
     if(
         Math.abs(board[0] + board[1] + board[2]) === 3 ||
@@ -109,6 +109,7 @@ function checkForWinner() {
     }
 }
 
+//Changes turn after player plays
 function switchTurns(){
     if (winner) return
     turn *= -1

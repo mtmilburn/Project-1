@@ -14,14 +14,13 @@ I'm a family or friend with absolutely no experience in software and want to sim
 * add more projects and polish existing projects
 
 
-### Installation Instructions
 
 ### _screenshots to let users know what to expect_?
-(![Screenshot of "Home" page and "About me" page.]
-(./Screenshot 2023-12-27 at 1.34.26 PM.png))
-(![Screenshot of my "Resume" page and my "Projects" page.]
-(./last take.png))
-### Unsoled problems/Major Hurdles I had to overcome
+
+![Home Page and About Me](https://imgur.com/aGFrD81)
+![Resume and Projects](https://imgur.com/TOBtgGH)
+
+### Unsolved Problems/Major Hurdles I had to overcome
 As far as I'm aware there are no unsolved problems. However there were many major hurdles, mainly with CSS. Embarrassingly I didn't realize my HTML and CSS weren't properly connected for a while, so I tried everything to make the changes I wanted appear on the page. Afterwards, once I realized the disconnect, and all my changes went through, I actually because much more comfortable with CSS.
 
 ### A link to the project?

@@ -12,6 +12,7 @@
     
   }
   
+
   .container>h1 {
     font-family: Arial, Helvetica, sans-serif, impact;
     font-weight: 800;
@@ -36,7 +37,7 @@
     background: #107e1d;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 2px 2px #131312;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, .4);
   }
   
   .carousel-images .images {
@@ -67,12 +68,14 @@
     background: #56090a;
     box-shadow: 1px 1px #315116;
     color: white;
+    
   }
   
   .carousel-images img:first-of-type {
     display: block;
   object-fit: contain;
-    object-position: center;}
+    object-position: center;
+  }
 
 
   

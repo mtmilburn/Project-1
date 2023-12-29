@@ -17,11 +17,15 @@ I'm a family or friend with absolutely no experience in software and want to sim
 
   |   Description | Screenshot | 
   |:-------------:| -----------|
-  | <h3>Test shot</h3> | <img src="https://i.imgur.com/aGFrD81.png" width="700"> |
-  | <h3>Profile Page</h3> | <img src="https://imgur.com/TOBtgGH" width="700"> |
+  | <h3>Home Page</h3> | <img src="https://i.imgur.com/HKVHt91.png" width="700"> |
+  | <h3>About Me</h3> | <img src="https://i.imgur.com/qLKrq4V.png" width="700"> |
+  | <h3>Resume</h3> | <img src="https://i.imgur.com/7St4iCd.png" width="700"> |
+  | <h3>Projects</h3> | <img src="https://i.imgur.com/Q2WyiCQ.png" width="700"> |
 
 ### Unsolved Problems/Major Hurdles I had to overcome
 As far as I'm aware there are no unsolved problems. However there were many major hurdles, mainly with CSS. Embarrassingly I didn't realize my HTML and CSS weren't properly connected for a while, so I tried everything to make the changes I wanted appear on the page. Afterwards, once I realized the disconnect, and all my changes went through, I actually because much more comfortable with CSS.
+
+Additionally, as I had posted on the slack, making a model was a major obstacle for me. To be honest it was a bunch of silly mistakes because I had tried so many thngis my code had some incorrect properties and methods. Similar to the previous problem once the simple problem was solved everything fell into place.
 
 ### A link to the project?
 https://mtmilburn.github.io/Project-1/

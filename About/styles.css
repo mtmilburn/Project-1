@@ -36,6 +36,14 @@ nav {
     margin-top: 50px;
 }
 
+button {
+    border-radius: 10%;
+    margin-top: 25px;
+    border-color: brown;
+    border: 5px inset brown;
+    cursor: pointer;
+}
+
 .info {
     flex-wrap: wrap;
     display: flex;

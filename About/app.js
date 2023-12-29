@@ -1,13 +1,9 @@
-const openBtn = document.querySelector("button")
-const modal = document.querySelector("modal")
-const closeBtn = document.querySelector("closeModal")
+const openBtn = document.getElementById("openModal")
+const modal = document.getElementById("modal")
+const closeBtn = document.getElementById("closeModal")
 
 
 
-//~~~~~~~~~~~~~~~~~~~~~~~Event Listeners
-
-openBtn.addEventListener('click', openModal);
-closeBtn.addEventListener('click', closeModal);
 //~~~~~~~~~~~~~~~~~~~~~~~Functions
 
 
@@ -17,3 +13,7 @@ const openModal = () => {
 const closeModal = () => {
     modal.style.display = 'none'
 }
+//~~~~~~~~~~~~~~~~~~~~~~~Event Listeners
+
+openBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);

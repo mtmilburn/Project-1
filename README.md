@@ -17,7 +17,7 @@ I'm a family or friend with absolutely no experience in software and want to sim
 
   |   Description | Screenshot | 
   |:-------------:| -----------|
-  | <h3>Test shot</h3> | <img src="https://imgur.com/aGFrD81" width="700"> |
+  | <h3>Test shot</h3> | <img src="https://i.imgur.com/aGFrD81.png" width="700"> |
   | <h3>Profile Page</h3> | <img src="https://imgur.com/TOBtgGH" width="700"> |
 
 ### Unsolved Problems/Major Hurdles I had to overcome

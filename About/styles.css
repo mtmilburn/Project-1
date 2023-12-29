@@ -15,17 +15,16 @@ nav {
 }
 
 #modal {
-	background-color: rgba(0,0,0,0.4);
-	position: fixed;
-	top: 1000;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	z-index: 1;
-	overflow: auto;
-	
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 1000;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    overflow: auto;
+    display: none;
 }
-
 
 .title {
     display: flex;
@@ -37,7 +36,7 @@ nav {
     margin-top: 50px;
 }
 
-#modalText {
+.info {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;

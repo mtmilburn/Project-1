@@ -1,19 +1,19 @@
-const openBtn = document.getElementById('openModal');
-const modal = document.getElementById('modal');
-const closeBtn = document.getElementById('closeModal');
+const openBtn = document.querySelector("button")
+const modal = document.querySelector("modal")
+const closeBtn = document.querySelector("closeModal")
 
 
-//~~~~~~~~~~~~~~~~~~~~~~~Functions
-
-const openModal = () => {
-    modal.style.display = 'block';
-}
-
-const closeModal = () => {
-    modal.style.display = 'none'
-}
 
 //~~~~~~~~~~~~~~~~~~~~~~~Event Listeners
 
 openBtn.addEventListener('click', openModal);
 closeBtn.addEventListener('click', closeModal);
+//~~~~~~~~~~~~~~~~~~~~~~~Functions
+
+
+const openModal = () => {
+    modal.style.display = 'block';
+}
+const closeModal = () => {
+    modal.style.display = 'none'
+}

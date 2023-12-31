@@ -38,6 +38,7 @@
     padding: 10px;
     border-radius: 10px;
     box-shadow: 10px 20px 10px rgba(0, 0, 0, .4);
+    
   }
   
   .carousel-images .images {
@@ -47,7 +48,7 @@
     box-sizing: inherit;
     border: #000000;
     object-fit: contain;
-    
+    background-color: rgba(63, 26, 2, 0.5)
   }
   
   
@@ -78,4 +79,10 @@
   }
 
 
-  
+  @media only screen and (max-width: 440px) {
+    #ttt {
+      max-width: 181px;
+      max-height: 181px;
+    }
+
+  }

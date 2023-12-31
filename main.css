@@ -66,10 +66,26 @@ footer {
 
   @media only screen and (max-width: 440px) { 
     footer {
-      display: 100%;
+      display: none;
     }
     nav {
       flex-direction: column;
       align-items: center;
+      font-size: x-large;
+      justify-self: space-evenly;
+      border: none;
     }
+    .navEl {
+      border-radius: 50px;
+      padding: 5px;
+      background-color: rgba(165, 91, 42, 0.525);
+      margin-bottom: 10px;
+    }
+    .sticky {
+      flex-direction: row;
+      align-self: center;
+      margin-bottom: 10px;
+      
+    }
+
   }

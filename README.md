@@ -27,7 +27,7 @@ As far as I'm aware there are no unsolved problems. However there were many majo
 
 Additionally, as I had posted on the slack, making a model was a major obstacle for me. To be honest it was a bunch of silly mistakes because I had tried so many thngis my code had some incorrect properties and methods. Similar to the previous problem once the simple problem was solved everything fell into place.
 
-### A link to the project?
+### A link to the project
 https://mtmilburn.github.io/Project-1/
 
 ### Technologies used
